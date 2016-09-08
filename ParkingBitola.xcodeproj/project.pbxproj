@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232CB6A31D81769600C43895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232CB6A21D81769600C43895 /* AppDelegate.swift */; };
+		232CB6A51D81769600C43895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232CB6A41D81769600C43895 /* ViewController.swift */; };
+		232CB6A81D81769600C43895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232CB6A61D81769600C43895 /* Main.storyboard */; };
+		232CB6AA1D81769600C43895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232CB6A91D81769600C43895 /* Assets.xcassets */; };
+		232CB6AD1D81769600C43895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232CB6AB1D81769600C43895 /* LaunchScreen.storyboard */; };
+		232CB6B81D81769600C43895 /* ParkingBitolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232CB6B71D81769600C43895 /* ParkingBitolaTests.swift */; };
+		232CB6C31D81769600C43895 /* ParkingBitolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232CB6C21D81769600C43895 /* ParkingBitolaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		232CB6B41D81769600C43895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232CB6971D81769600C43895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232CB69E1D81769600C43895;
+			remoteInfo = ParkingBitola;
+		};
+		232CB6BF1D81769600C43895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232CB6971D81769600C43895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232CB69E1D81769600C43895;
+			remoteInfo = ParkingBitola;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		232CB69F1D81769600C43895 /* ParkingBitola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingBitola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		232CB6A21D81769600C43895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		232CB6A41D81769600C43895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		232CB6A71D81769600C43895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		232CB6A91D81769600C43895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		232CB6AC1D81769600C43895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		232CB6AE1D81769600C43895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		232CB6B31D81769600C43895 /* ParkingBitolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingBitolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		232CB6B71D81769600C43895 /* ParkingBitolaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingBitolaTests.swift; sourceTree = "<group>"; };
+		232CB6B91D81769600C43895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		232CB6BE1D81769600C43895 /* ParkingBitolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingBitolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		232CB6C21D81769600C43895 /* ParkingBitolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingBitolaUITests.swift; sourceTree = "<group>"; };
+		232CB6C41D81769600C43895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		232CB69C1D81769600C43895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232CB6B01D81769600C43895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232CB6BB1D81769600C43895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232CB6961D81769600C43895 = {
+			isa = PBXGroup;
+			children = (
+				232CB6A11D81769600C43895 /* ParkingBitola */,
+				232CB6B61D81769600C43895 /* ParkingBitolaTests */,
+				232CB6C11D81769600C43895 /* ParkingBitolaUITests */,
+				232CB6A01D81769600C43895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		232CB6A01D81769600C43895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232CB69F1D81769600C43895 /* ParkingBitola.app */,
+				232CB6B31D81769600C43895 /* ParkingBitolaTests.xctest */,
+				232CB6BE1D81769600C43895 /* ParkingBitolaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232CB6A11D81769600C43895 /* ParkingBitola */ = {
+			isa = PBXGroup;
+			children = (
+				232CB6A21D81769600C43895 /* AppDelegate.swift */,
+				232CB6A41D81769600C43895 /* ViewController.swift */,
+				232CB6A61D81769600C43895 /* Main.storyboard */,
+				232CB6A91D81769600C43895 /* Assets.xcassets */,
+				232CB6AB1D81769600C43895 /* LaunchScreen.storyboard */,
+				232CB6AE1D81769600C43895 /* Info.plist */,
+			);
+			path = ParkingBitola;
+			sourceTree = "<group>";
+		};
+		232CB6B61D81769600C43895 /* ParkingBitolaTests */ = {
+			isa = PBXGroup;
+			children = (
+				232CB6B71D81769600C43895 /* ParkingBitolaTests.swift */,
+				232CB6B91D81769600C43895 /* Info.plist */,
+			);
+			path = ParkingBitolaTests;
+			sourceTree = "<group>";
+		};
+		232CB6C11D81769600C43895 /* ParkingBitolaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				232CB6C21D81769600C43895 /* ParkingBitolaUITests.swift */,
+				232CB6C41D81769600C43895 /* Info.plist */,
+			);
+			path = ParkingBitolaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		232CB69E1D81769600C43895 /* ParkingBitola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232CB6C71D81769600C43895 /* Build configuration list for PBXNativeTarget "ParkingBitola" */;
+			buildPhases = (
+				232CB69B1D81769600C43895 /* Sources */,
+				232CB69C1D81769600C43895 /* Frameworks */,
+				232CB69D1D81769600C43895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingBitola;
+			productName = ParkingBitola;
+			productReference = 232CB69F1D81769600C43895 /* ParkingBitola.app */;
+			productType = "com.apple.product-type.application";
+		};
+		232CB6B21D81769600C43895 /* ParkingBitolaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232CB6CA1D81769600C43895 /* Build configuration list for PBXNativeTarget "ParkingBitolaTests" */;
+			buildPhases = (
+				232CB6AF1D81769600C43895 /* Sources */,
+				232CB6B01D81769600C43895 /* Frameworks */,
+				232CB6B11D81769600C43895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				232CB6B51D81769600C43895 /* PBXTargetDependency */,
+			);
+			name = ParkingBitolaTests;
+			productName = ParkingBitolaTests;
+			productReference = 232CB6B31D81769600C43895 /* ParkingBitolaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		232CB6BD1D81769600C43895 /* ParkingBitolaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232CB6CD1D81769600C43895 /* Build configuration list for PBXNativeTarget "ParkingBitolaUITests" */;
+			buildPhases = (
+				232CB6BA1D81769600C43895 /* Sources */,
+				232CB6BB1D81769600C43895 /* Frameworks */,
+				232CB6BC1D81769600C43895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				232CB6C01D81769600C43895 /* PBXTargetDependency */,
+			);
+			name = ParkingBitolaUITests;
+			productName = ParkingBitolaUITests;
+			productReference = 232CB6BE1D81769600C43895 /* ParkingBitolaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232CB6971D81769600C43895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aleksandar Ruzin";
+				TargetAttributes = {
+					232CB69E1D81769600C43895 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					232CB6B21D81769600C43895 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 232CB69E1D81769600C43895;
+					};
+					232CB6BD1D81769600C43895 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 232CB69E1D81769600C43895;
+					};
+				};
+			};
+			buildConfigurationList = 232CB69A1D81769600C43895 /* Build configuration list for PBXProject "ParkingBitola" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 232CB6961D81769600C43895;
+			productRefGroup = 232CB6A01D81769600C43895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				232CB69E1D81769600C43895 /* ParkingBitola */,
+				232CB6B21D81769600C43895 /* ParkingBitolaTests */,
+				232CB6BD1D81769600C43895 /* ParkingBitolaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232CB69D1D81769600C43895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232CB6AD1D81769600C43895 /* LaunchScreen.storyboard in Resources */,
+				232CB6AA1D81769600C43895 /* Assets.xcassets in Resources */,
+				232CB6A81D81769600C43895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232CB6B11D81769600C43895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232CB6BC1D81769600C43895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232CB69B1D81769600C43895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232CB6A51D81769600C43895 /* ViewController.swift in Sources */,
+				232CB6A31D81769600C43895 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232CB6AF1D81769600C43895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232CB6B81D81769600C43895 /* ParkingBitolaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232CB6BA1D81769600C43895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232CB6C31D81769600C43895 /* ParkingBitolaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		232CB6B51D81769600C43895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232CB69E1D81769600C43895 /* ParkingBitola */;
+			targetProxy = 232CB6B41D81769600C43895 /* PBXContainerItemProxy */;
+		};
+		232CB6C01D81769600C43895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232CB69E1D81769600C43895 /* ParkingBitola */;
+			targetProxy = 232CB6BF1D81769600C43895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		232CB6A61D81769600C43895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232CB6A71D81769600C43895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		232CB6AB1D81769600C43895 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232CB6AC1D81769600C43895 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		232CB6C51D81769600C43895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		232CB6C61D81769600C43895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		232CB6C81D81769600C43895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParkingBitola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfx.parking.ParkingBitola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		232CB6C91D81769600C43895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParkingBitola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfx.parking.ParkingBitola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		232CB6CB1D81769600C43895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParkingBitolaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfx.parking.ParkingBitolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkingBitola.app/ParkingBitola";
+			};
+			name = Debug;
+		};
+		232CB6CC1D81769600C43895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParkingBitolaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfx.parking.ParkingBitolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkingBitola.app/ParkingBitola";
+			};
+			name = Release;
+		};
+		232CB6CE1D81769600C43895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParkingBitolaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfx.parking.ParkingBitolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParkingBitola;
+			};
+			name = Debug;
+		};
+		232CB6CF1D81769600C43895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParkingBitolaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfx.parking.ParkingBitolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParkingBitola;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232CB69A1D81769600C43895 /* Build configuration list for PBXProject "ParkingBitola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232CB6C51D81769600C43895 /* Debug */,
+				232CB6C61D81769600C43895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232CB6C71D81769600C43895 /* Build configuration list for PBXNativeTarget "ParkingBitola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232CB6C81D81769600C43895 /* Debug */,
+				232CB6C91D81769600C43895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		232CB6CA1D81769600C43895 /* Build configuration list for PBXNativeTarget "ParkingBitolaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232CB6CB1D81769600C43895 /* Debug */,
+				232CB6CC1D81769600C43895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		232CB6CD1D81769600C43895 /* Build configuration list for PBXNativeTarget "ParkingBitolaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232CB6CE1D81769600C43895 /* Debug */,
+				232CB6CF1D81769600C43895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232CB6971D81769600C43895 /* Project object */;
+}
